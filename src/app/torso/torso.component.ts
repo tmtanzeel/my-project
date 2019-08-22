@@ -2,14 +2,14 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-torso',
-  templateUrl: './torso.component.html',
-  styleUrls: ['./torso.component.css']
+  templateUrl: 'torso.component.html',
+  styleUrls: ['torso.component.css']
 })
-export class TorsoComponent implements OnInit {
 
-  constructor() { }
+export class TorsoComponent implements OnInit {
+  constructor() {
+  }
 
   ngOnInit() {
   }
-
 }
